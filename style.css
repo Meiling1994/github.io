@@ -1,0 +1,56 @@
+table {
+  border: 2px solid;
+  margin: auto;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: monospace;
+}
+
+th, td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  }
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  color: brown;
+}
+
+body {
+  background-color: cornsilk;
+}
+
+.footer {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+thead {
+  background-color: Crimson;
+}
+
+.Row1 {
+  background-color: chocolate;
+}
+
+.Row2 {
+  background-color: burlywood;
+}
+
+.Row3 {
+  background-color: bisque;
+}
+
+.Row4 {
+  background-color: DarkRed;
+}
+
+.Row5 {
+  background-color: DarkSalmon;
+}
+
+.RowFooter {
+  background-color: DarkgoldenRod;
+}
