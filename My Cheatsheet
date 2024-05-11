@@ -1,0 +1,52 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>The CSS Boxmodel</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+<header><h1>My Cheatsheet</h1></header>
+<table>
+  <thead>
+    <tr>
+      <th scope="col"><h2>Tag or attribute</h2></th>
+      <th scope="col"><h2>Formatted tag</h2></th>
+      <th scope="col"><h2>Description of tag</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="Row1">
+      <td scope="row">table</td>
+      <td scope="row">&lt;table&gt;</td>
+      <td scope="row">The container for all html table elements</td>
+    </tr>
+    <tr class="Row2">
+      <td scope="row">table head</td>
+      <td scope="row">&lt;thead&gt;</td>
+      <td scope="row">Contains titles or headings for each column in the table</td>
+    </tr>
+    <tr class="Row3">
+      <td scope="row">table row</td>
+      <td scope="row">&lt;tr&gt;</td>
+      <td scope="row">Horizontal arrangement of cells within a table</td>
+    </tr>
+    <tr class="Row4">
+      <td scope="row">table header</td>
+      <td scope="row">&lt;th&gt;</td>
+      <td scope="row">Contains headings or labels for the columns or rows in the table</td>
+    </tr>
+    <tr class="Row5">
+      <td scope="row">table data</td>
+      <td scope="row">&lt;td&gt;</td>
+      <td scope="row">Used to define a standard data cell within an HTML table.</td>
+    </tr>
+    <tfooter>
+      <tr class="RowFooter">
+        <td class="footer" colspan="3">Made by Milena</td>
+      </tr>
+    </tfooter>
+  </tbody>
+</table>
+</body>
+</html>
